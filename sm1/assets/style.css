@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 80px;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #b700ff;
+    list-style: none;
+    padding: 0;
+    color: #000;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
